@@ -1,0 +1,77 @@
+repositories:
+  RSL:
+    type: git
+    url: https://github.com/PickNikRobotics/RSL.git
+    version: main
+  angles:
+    type: git
+    url: https://github.com/ros/angles.git
+    version: humble-devel
+  backward_ros:
+    type: git
+    url: https://github.com/pal-robotics/backward_ros.git
+    version: foxy-devel
+  control_msgs:
+    type: git
+    url: https://github.com/ros-controls/control_msgs.git
+    version: humble
+  control_toolbox:
+    type: git
+    url: https://github.com/ros-controls/control_toolbox.git
+    version: ros2-master
+  cpp_polyfills:
+    type: git
+    url: https://github.com/PickNikRobotics/cpp_polyfills.git
+    version: main
+  eigen_stl_containers:
+    type: git
+    url: https://github.com/ros/eigen_stl_containers.git
+    version: ros2
+  eigenpy:
+    type: git
+    url: https://github.com/stack-of-tasks/eigenpy.git
+    version: 074ec7d0e2028dcbc875309bfa2ea95bf1abed81
+  filters:
+    type: git
+    url: https://github.com/ros/filters.git
+    version: ros2
+  geometric_shapes:
+    type: git
+    url: https://github.com/moveit/geometric_shapes.git
+    version: ros2
+  hpp-fcl:
+    type: git
+    url: https://github.com/humanoid-path-planner/hpp-fcl.git
+    version: ce5e23aebbb021a369e8a2c1274eb0ecd056a3a0
+  object_recognition_msgs:
+    type: git
+    url: https://github.com/wg-perception/object_recognition_msgs.git
+    version: ros2
+  octomap_msgs:
+    type: git
+    url: https://github.com/OctoMap/octomap_msgs.git
+    version: ros2
+  random_numbers:
+    type: git
+    url: https://github.com/moveit/random_numbers.git
+    version: ros2
+  realtime_tools:
+    type: git
+    url: https://github.com/ros-controls/realtime_tools.git
+    version: master
+  ros2_control:
+    type: git
+    url: https://github.com/ros-controls/ros2_control.git
+    version: humble
+  ruckig:
+    type: git
+    url: https://github.com/pantor/ruckig.git
+    version: main
+  srdfdom:
+    type: git
+    url: https://github.com/moveit/srdfdom.git
+    version: ros2
+  warehouse_ros:
+    type: git
+    url: https://github.com/moveit/warehouse_ros.git
+    version: ros2
