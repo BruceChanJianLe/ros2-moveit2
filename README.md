@@ -57,7 +57,7 @@ sudo apt dist-upgrade
 rosdep update
 ```
 
-4. Clone Moveit2 and build it
+4. Clone Moveit2
 
 Please pay special attention to some of the external pkg repos.
 For example, hpp-fcl and ruckig both has third-parties dependencies which will need to be handled (submodule) manually.
@@ -70,4 +70,15 @@ mkdir external_pkgs
 cd external_pkgs
 git clone https://github.com/BruceChanJianLe/ros2-moveit2.git
 vcs import src < src/linux-vcstool/test_ws.repos
+```
+
+5. Update cmakes and extra errands
+
+Based on this repo, please copy over the files to replace in moveit2 directory inside of `humble_ws/src/moveit2`.
+
+6. Build it
+
+```bash
+cd ros2_ws/humble_ws
+colcon build --symlink-install --cmake-args -DPYBIND11_PYTHON_VERSION=3
 ```
